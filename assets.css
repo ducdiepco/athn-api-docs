@@ -441,7 +441,7 @@ code {
 #sidebar {
   background: #191919;
   color: #fff;
-  float: left;  
+  float: left;
   height: 100%;
   overflow: auto;
   position: fixed;
@@ -585,12 +585,30 @@ code {
   background: #119bdf;
 }
 
+/* QUERY */
+#content article.QUERY a h2 code {
+  color: #119bdf;
+}
+
+#content article.QUERY a h2 code b {
+  background: #119bdf;
+}
+
 /* POST */
 #content article.POST a h2 code {
   color: #52ce0e;
 }
 
 #content article.POST a h2 code b {
+  background: #52ce0e;
+}
+
+/* MUTATION */
+#content article.MUTATION a h2 code {
+  color: #52ce0e;
+}
+
+#content article.MUTATION a h2 code b {
   background: #52ce0e;
 }
 
